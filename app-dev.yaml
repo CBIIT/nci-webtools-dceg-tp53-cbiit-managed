@@ -8,9 +8,9 @@ runtime_config:
   python_version: "3.8"
   operating_system: "ubuntu18"
 
-instance_class: F4_1G
-network:
-  instance_tag: isb-cgc-tp53
+# instance_class: F4_1G
+# network:
+#   instance_tag: isb-cgc-tp53
 
 env_variables:
   DATA_VERSION: 'r21'
