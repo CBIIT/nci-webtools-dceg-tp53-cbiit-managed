@@ -18,7 +18,7 @@ from google.api_core.exceptions import BadRequest
 import concurrent.futures
 import requests
 import copy
-import bq_builder
+import query_builder
 
 
 def build_graph_configs(action, table=None):
@@ -159,24 +159,24 @@ def build_graph_sqls(graph_configs, criteria_map, table):
 
         query_type = graph_configs[graph_id]['query_type']
         if query_type == 'group_sums':
-            stm = bq_builder.build_mutation_dist_sum_query(criteria_map=cri, table=table,
+            stm = query_builder.build_mutation_dist_sum_query(criteria_map=cri, table=table,
                                                            group_by=graph_configs[graph_id]['group_by'],
                                                            sum_col=graph_configs[graph_id]['sum_col'])
         elif query_type == 'codon_counts':
-            stm = bq_builder.build_codon_dist_query(column=graph_configs[graph_id]['codon_col'], table=table)
+            stm = query_builder.build_codon_dist_query(column=graph_configs[graph_id]['codon_col'], table=table)
         elif query_type == 'mutation_rate':
             label_by = graph_configs[graph_id].get('label_by', 'effect')
-            stm = bq_builder.build_mutation_rate_query(criteria_map=cri, table=table, label_by=label_by)
+            stm = query_builder.build_mutation_rate_query(criteria_map=cri, table=table, label_by=label_by)
         else:
-            stm = bq_builder.build_mutation_query(criteria_map=cri, table=table, group_by=graph_configs[graph_id]['group_by'])
+            stm = query_builder.build_mutation_query(criteria_map=cri, table=table, group_by=graph_configs[graph_id]['group_by'])
         sql_maps[graph_id] = stm
     return sql_maps
 
 
-def build_graph_data(bq_client, sql_maps):
+def build_graph_data(db_client, sql_maps):
     query_jobs = {}
     for graph_id in sql_maps:
-        job = bq_client.query(sql_maps[graph_id])
+        job = db_client.sql(sql_maps[graph_id])
         query_jobs[graph_id] = job
     graph_data = {}
     error_msg = None

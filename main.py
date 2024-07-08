@@ -29,13 +29,14 @@ from google.cloud import bigquery
 from google.api_core.exceptions import BadRequest
 from flask_talisman import Talisman
 import settings
-import bq_builder
+import query_builder
 import concurrent.futures
 import requests
 import csv
 import utils
 import graphs
 import filters
+import duckdb
 from io import StringIO
 
 from jinja2 import TemplateNotFound
@@ -74,9 +75,10 @@ if os.environ.get("IS_GAE_DEPLOYMENT", "False") != "True":
         app.root_path, "privatekey.json"
     )
 
-bq_builder.set_project_dataset(proj_id=settings.BQ_GCP, d_set=settings.BQ_DATASET)
+query_builder.set_project_dataset("tp53")
 
-bigquery_client = bigquery.Client()
+# bigquery_client = bigquery.Client()
+db_client = duckdb.connect("db/tp53.duckdb", read_only=True)
 
 TITLE_BQVIEW_MAP = {
     "MutationView": "Functional / Structural Data in <em>TP53</em> with Annotations",
@@ -229,7 +231,7 @@ def get_distribution():
             sql_maps = graphs.build_graph_sqls(
                 graph_configs, criteria_map=criteria_map, table=table
             )
-        graph_result = graphs.build_graph_data(bigquery_client, sql_maps)
+        graph_result = graphs.build_graph_data(db_client, sql_maps)
         error_msg = graph_result.get("msg", None)
     except BadRequest as e:
         error_msg = f"There was a problem with your search input. Please revise your search criteria and search again."
@@ -384,7 +386,7 @@ def mutation_query():
         order_prime_column = (
             column_filters[order_col - 1] if order_col > 0 else column_filters[0]
         )
-        sql_stm = bq_builder.build_query_w_exclusion(
+        sql_stm = query_builder.build_query_w_exclusion(
             criteria_map=criteria_map,
             table=table,
             ord_column_list=[order_prime_column, distinct_col],
@@ -392,7 +394,7 @@ def mutation_query():
             start=start,
             length=length,
         )
-        sql_cnt_stm = bq_builder.build_query_w_exclusion(
+        sql_cnt_stm = query_builder.build_query_w_exclusion(
             criteria_map=criteria_map,
             table=table,
             do_counts=True,
@@ -410,10 +412,14 @@ def mutation_query():
 
 
 def get_paginated_results(sql_stm, sql_cnt_stm):
-    page_result = run_bq_sql(sql_stm)
-    count_result = run_bq_sql(sql_cnt_stm)
-    page_result_list = [dict(row) for row in page_result]
-    recordsTotal = list(count_result)[0].CNT
+    page_result = run_sql(sql_stm)
+    for row in page_result.fetchall():
+        print(row)
+    count_result = run_sql(sql_cnt_stm).fetchone()
+    columns = page_result.description
+    page_result_list = [{columns[index][0]: value for index, value in enumerate(row)}  for row in page_result.fetchall()]
+    # page_result_list = [dict(row) for row in page_result.fetchall()]
+    recordsTotal = count_result[0]
     return {
         "recordsTotal": recordsTotal,
         "recordsFiltered": recordsTotal,
@@ -421,12 +427,13 @@ def get_paginated_results(sql_stm, sql_cnt_stm):
     }
 
 
-def run_bq_sql(sql_stm):
-    query_job = bigquery_client.query(sql_stm)
+def run_sql(sql_stm):
+    query_job = db_client.sql(sql_stm)
     # error_msg = None
 
     try:
-        query_result = query_job.result(timeout=30)
+        print(query_job)
+        query_result = query_job
         return query_result
     except (concurrent.futures.TimeoutError, requests.exceptions.ReadTimeout):
         error_msg = "Sorry, query job has timed out."
@@ -521,7 +528,7 @@ def simple_query(prefix):
         else:
             return abort(404)
 
-        sql_stm = bq_builder.build_simple_query(
+        sql_stm = query_builder.build_simple_query(
             criteria=criteria,
             table=table,
             column_filters=column_filters,
@@ -531,7 +538,7 @@ def simple_query(prefix):
             start=start,
             length=length,
         )
-        sql_cnt_stm = bq_builder.build_simple_query(
+        sql_cnt_stm = query_builder.build_simple_query(
             criteria=criteria,
             table=table,
             column_filters=column_filters,
@@ -639,21 +646,21 @@ def mut_details():
     tsv_data = None
     try:
         for t_id in simple_queries:
-            sql_stms[t_id] = bq_builder.build_simple_query(
+            sql_stms[t_id] = query_builder.build_simple_query(
                 criteria=simple_queries[t_id]["criteria"],
                 table=simple_queries[t_id]["table"],
                 column_filters=simple_queries[t_id]["column_filters"],
                 ord_column=simple_queries[t_id]["ord_column"],
             )
         for t_id in join_queries:
-            sql_stms[t_id] = bq_builder.build_mutation_view_join_query(
+            sql_stms[t_id] = query_builder.build_mutation_view_join_query(
                 mut_id=join_queries[t_id]["mut_id"],
                 join_table=join_queries[t_id]["table"],
                 column_filters=join_queries[t_id]["column_filters"],
                 join_column=join_queries[t_id]["join_column"],
                 ord_column=join_queries[t_id]["ord_column"],
             )
-        query_job = bigquery_client.query(sql_stms["mutation"])
+        query_job = db_client.sql(sql_stms["mutation"])
         query_result["mutation"] = list(query_job.result(timeout=30))
         del sql_stms["mutation"]
         if query_result["mutation"] and query_result["mutation"][0]:
@@ -723,7 +730,7 @@ def mut_details():
                         "MUT_ID": mut_desc["MUT_ID"],
                     }
         for t_id in sql_stms:
-            query_job = bigquery_client.query(sql_stms[t_id])
+            query_job = db_client.sql(sql_stms[t_id])
             query_result[t_id] = list(query_job.result(timeout=30))
     except BadRequest:
         error_msg = "There was a problem while running the query: BadRequest"
@@ -792,8 +799,8 @@ def prevalence_somatic_stats():
     error_msg = None
     graph_data = {}
     try:
-        sql_stm = bq_builder.build_mutation_prevalence()
-        result = run_bq_sql(sql_stm)
+        sql_stm = query_builder.build_mutation_prevalence()
+        result = run_sql(sql_stm)
         labels = []
         data = []
         total_cnt = 0
@@ -867,16 +874,16 @@ def download_dataset():
         if query_datatable is None:
             raise BadRequest("Parameter 'query_dataset' is missing.")
         if not len(criteria_map.get("exclude", [])):
-            sql_stm = bq_builder.build_simple_query(
+            sql_stm = query_builder.build_simple_query(
                 criteria=criteria_map.get("include", []),
                 table=query_datatable,
                 column_filters=["*"],
             )
         else:
-            sql_stm = bq_builder.build_query_w_exclusion(
+            sql_stm = query_builder.build_query_w_exclusion(
                 criteria_map=criteria_map, table=query_datatable, column_filters=["*"]
             )
-        query_job = bigquery_client.query(sql_stm)
+        query_job = db_client.sql(sql_stm)
         result = query_job.result(timeout=30)
         query_result = list(result)
         table_header = [sf.name for sf in result.schema]
@@ -938,10 +945,10 @@ def get_prevalence_distribution():
         group_by = "Morphogroup"
         subtitle = "Tumor Variant Prevalence by Morphology"
     try:
-        sql_stm = bq_builder.build_group_sum_graph_query(
+        sql_stm = query_builder.build_group_sum_graph_query(
             criteria=criteria, view="PrevalenceView", group_by=group_by
         )
-        query_job = bigquery_client.query(sql_stm)
+        query_job = db_client.sql(sql_stm)
         data = []
         result = query_job.result(timeout=30)
         rows = list(result)
@@ -1021,12 +1028,12 @@ def view_germline_prevalence():
     query_result = {}
     error_msg = None
     try:
-        sql_stm = bq_builder.build_simple_query(
+        sql_stm = query_builder.build_simple_query(
             criteria=criteria,
             table="GermlinePrevalenceView",
             column_filters=column_filters,
         )
-        query_job = bigquery_client.query(sql_stm)
+        query_job = db_client.sql(sql_stm)
         result = query_job.result(timeout=30)
         data = list(result)
         query_result = {"data": data, "msg": error_msg}
@@ -1105,10 +1112,10 @@ def view_full_data(dataset):
             {"column_name": "polymorphism", "vals": ["validated"], "wrap_with": '"'}
         ]
     try:
-        sql_stm = bq_builder.build_simple_query(
+        sql_stm = query_builder.build_simple_query(
             criteria=criteria, table=table, column_filters=column_filters
         )
-        query_job = bigquery_client.query(sql_stm)
+        query_job = db_client.sql(sql_stm)
         result = query_job.result(timeout=30)
         data = list(result)
         query_result = {"data": data, "msg": error_msg}
@@ -1204,7 +1211,7 @@ def cell_lines_mutation_stats():
             raise BadRequest("Parameter 'action' is missing or invalid.")
         graph_configs = graphs.build_graph_configs(action, table)
         sql_maps = graphs.build_graph_sqls(graph_configs, {}, table)
-        graph_result = graphs.build_graph_data(bigquery_client, sql_maps)
+        graph_result = graphs.build_graph_data(db_client, sql_maps)
         error_msg = graph_result.get("msg", None)
     except BadRequest as e:
         error_msg = f"There was a problem with the last search input. Please revise the search criteria and try again: {e.message} ({e.code})"
