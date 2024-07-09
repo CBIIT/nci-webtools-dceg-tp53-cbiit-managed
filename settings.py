@@ -19,83 +19,83 @@ from flask import json
 import utils
 
 
-M_C_DESC_FILE = 'M_C_DESC.TXT.LIST'
-M_P_DESC_FILE = 'M_P_DESC.TXT.LIST'
-M_G_DESC_HG19_FILE = 'M_G_DESC_HG19.TXT.LIST'
-M_G_DESC_HG38_FILE = 'M_G_DESC_HG38.TXT.LIST'
-M_TYPE_FILE = 'M_TYPE.TXT.LIST'
-M_DESC_FILE = 'M_DESC.TXT.LIST'
-M_MOTIF_FILE = 'M_MOTIF.TXT.LIST'
-M_EXON_INTRON_FILE = 'M_EXON_INTRON.TXT.LIST'
-M_EFFECT_FILE = 'M_EFFECT.TXT.LIST'
-M_TA_CLASS_FILE = 'M_TA_CLASS.TXT.LIST'
-M_SIFT_FILE = 'M_SIFT.TXT.LIST'
+M_C_DESC_FILE = "M_C_DESC.TXT.LIST"
+M_P_DESC_FILE = "M_P_DESC.TXT.LIST"
+M_G_DESC_HG19_FILE = "M_G_DESC_HG19.TXT.LIST"
+M_G_DESC_HG38_FILE = "M_G_DESC_HG38.TXT.LIST"
+M_TYPE_FILE = "M_TYPE.TXT.LIST"
+M_DESC_FILE = "M_DESC.TXT.LIST"
+M_MOTIF_FILE = "M_MOTIF.TXT.LIST"
+M_EXON_INTRON_FILE = "M_EXON_INTRON.TXT.LIST"
+M_EFFECT_FILE = "M_EFFECT.TXT.LIST"
+M_TA_CLASS_FILE = "M_TA_CLASS.TXT.LIST"
+M_SIFT_FILE = "M_SIFT.TXT.LIST"
 
-CL_C_DESC_FILE = 'CL_C_DESC.TXT.LIST'
-CL_P_DESC_FILE = 'CL_P_DESC.TXT.LIST'
-CL_G_DESC_HG19_FILE = 'CL_G_DESC_HG19.TXT.LIST'
-CL_G_DESC_HG38_FILE = 'CL_G_DESC_HG38.TXT.LIST'
-TOPO_FILE = 'TOPO.TXT.LIST'
-MORPH_FILE = 'MORPH.TXT.LIST'
-CL_TUMOR_ORG_GROUP_FILE = 'CL_TUMOR_ORG_GROUP.TXT.LIST'
-CL_TP53STAT_FILE = 'CL_TP53STAT.TXT.LIST'
-CL_DESC_FILE = 'CL_DESC.TXT.LIST'
-CL_EFFECT_FILE = 'CL_EFFECT.TXT.LIST'
-CL_MOTIF_FILE = 'CL_MOTIF.TXT.LIST'
-CL_START_MATERIAL_FILE = 'CL_START_MATERIAL.TXT.LIST'
-CL_TA_CLASS_FILE = 'CL_TA_CLASS.TXT.LIST'
-CL_TYPE_FILE = 'CL_TYPE.TXT.LIST'
-CL_SIFT_FILE = 'CL_SIFT.TXT.LIST'
-CL_EXON_INTRON_FILE = 'CL_EXON_INTRON.TXT.LIST'
+CL_C_DESC_FILE = "CL_C_DESC.TXT.LIST"
+CL_P_DESC_FILE = "CL_P_DESC.TXT.LIST"
+CL_G_DESC_HG19_FILE = "CL_G_DESC_HG19.TXT.LIST"
+CL_G_DESC_HG38_FILE = "CL_G_DESC_HG38.TXT.LIST"
+TOPO_FILE = "TOPO.TXT.LIST"
+MORPH_FILE = "MORPH.TXT.LIST"
+CL_TUMOR_ORG_GROUP_FILE = "CL_TUMOR_ORG_GROUP.TXT.LIST"
+CL_TP53STAT_FILE = "CL_TP53STAT.TXT.LIST"
+CL_DESC_FILE = "CL_DESC.TXT.LIST"
+CL_EFFECT_FILE = "CL_EFFECT.TXT.LIST"
+CL_MOTIF_FILE = "CL_MOTIF.TXT.LIST"
+CL_START_MATERIAL_FILE = "CL_START_MATERIAL.TXT.LIST"
+CL_TA_CLASS_FILE = "CL_TA_CLASS.TXT.LIST"
+CL_TYPE_FILE = "CL_TYPE.TXT.LIST"
+CL_SIFT_FILE = "CL_SIFT.TXT.LIST"
+CL_EXON_INTRON_FILE = "CL_EXON_INTRON.TXT.LIST"
 
-CL_GERM_MUT_FILE = 'CL_GERM_MUT.TXT.LIST'
-CL_TOBACCO_FILE = 'CL_TOBACCO.TXT.LIST'
-CL_INF_AGNT_FILE = 'CL_INF_AGNT.TXT.LIST'
-CL_EXPOSURE_FILE = 'CL_EXPOSURE.TXT.LIST'
+CL_GERM_MUT_FILE = "CL_GERM_MUT.TXT.LIST"
+CL_TOBACCO_FILE = "CL_TOBACCO.TXT.LIST"
+CL_INF_AGNT_FILE = "CL_INF_AGNT.TXT.LIST"
+CL_EXPOSURE_FILE = "CL_EXPOSURE.TXT.LIST"
 
 
-SM_START_MATERIAL_FILE = 'SM_START_MATERIAL.TXT.LIST'
+SM_START_MATERIAL_FILE = "SM_START_MATERIAL.TXT.LIST"
 
-SM_C_DESC_FILE = 'SM_C_DESC.TXT.LIST'
-SM_P_DESC_FILE = 'SM_P_DESC.TXT.LIST'
-SM_G_DESC_HG19_FILE = 'SM_G_DESC_HG19.TXT.LIST'
-SM_G_DESC_HG38_FILE = 'SM_G_DESC_HG38.TXT.LIST'
+SM_C_DESC_FILE = "SM_C_DESC.TXT.LIST"
+SM_P_DESC_FILE = "SM_P_DESC.TXT.LIST"
+SM_G_DESC_HG19_FILE = "SM_G_DESC_HG19.TXT.LIST"
+SM_G_DESC_HG38_FILE = "SM_G_DESC_HG38.TXT.LIST"
 
-SM_TYPE_FILE = 'SM_TYPE.TXT.LIST'
-SM_DESC_FILE = 'SM_DESC.TXT.LIST'
-SM_MOTIF_FILE = 'SM_MOTIF.TXT.LIST'
-SM_EXON_INTRON_FILE = 'SM_EXON_INTRON.TXT.LIST'
-SM_EFFECT_FILE = 'SM_EFFECT.TXT.LIST'
-SM_TA_CLASS_FILE = 'SM_TA_CLASS.TXT.LIST'
-SM_SIFT_FILE = 'SM_SIFT.TXT.LIST'
-SM_TUMOR_ORG_GROUP_FILE = 'SM_TUMOR_ORG_GROUP.TXT.LIST'
-SM_SAMPLE_SOURCE_GROUP_FILE = 'SM_SAMPLE_SOURCE_GROUP.TXT.LIST'
-SM_GERM_MUT_FILE = 'SM_GERM_MUT.TXT.LIST'
-SM_TOBACCO_FILE = 'SM_TOBACCO.TXT.LIST'
-SM_INF_AGNT_FILE = 'SM_INF_AGNT.TXT.LIST'
-SM_EXPOSURE_FILE = 'SM_EXPOSURE.TXT.LIST'
-SM_REF_FILE = 'SM_REF.json'
-EVENT_FILE = 'EVENTS.json'
+SM_TYPE_FILE = "SM_TYPE.TXT.LIST"
+SM_DESC_FILE = "SM_DESC.TXT.LIST"
+SM_MOTIF_FILE = "SM_MOTIF.TXT.LIST"
+SM_EXON_INTRON_FILE = "SM_EXON_INTRON.TXT.LIST"
+SM_EFFECT_FILE = "SM_EFFECT.TXT.LIST"
+SM_TA_CLASS_FILE = "SM_TA_CLASS.TXT.LIST"
+SM_SIFT_FILE = "SM_SIFT.TXT.LIST"
+SM_TUMOR_ORG_GROUP_FILE = "SM_TUMOR_ORG_GROUP.TXT.LIST"
+SM_SAMPLE_SOURCE_GROUP_FILE = "SM_SAMPLE_SOURCE_GROUP.TXT.LIST"
+SM_GERM_MUT_FILE = "SM_GERM_MUT.TXT.LIST"
+SM_TOBACCO_FILE = "SM_TOBACCO.TXT.LIST"
+SM_INF_AGNT_FILE = "SM_INF_AGNT.TXT.LIST"
+SM_EXPOSURE_FILE = "SM_EXPOSURE.TXT.LIST"
+SM_REF_FILE = "SM_REF.json"
+EVENT_FILE = "EVENTS.json"
 
-COUNTRY_FILE = 'COUNTRY.TXT.LIST'
+COUNTRY_FILE = "COUNTRY.TXT.LIST"
 
-GM_C_DESC_FILE = 'GM_C_DESC.TXT.LIST'
-GM_P_DESC_FILE = 'GM_P_DESC.TXT.LIST'
-GM_G_DESC_HG19_FILE = 'GM_G_DESC_HG19.TXT.LIST'
-GM_G_DESC_HG38_FILE = 'GM_G_DESC_HG38.TXT.LIST'
-GM_TYPE_FILE = 'GM_TYPE.TXT.LIST'
-GM_DESC_FILE = 'GM_DESC.TXT.LIST'
-GM_MOTIF_FILE = 'GM_MOTIF.TXT.LIST'
-GM_EXON_INTRON_FILE = 'GM_EXON_INTRON.TXT.LIST'
-GM_EFFECT_FILE = 'GM_EFFECT.TXT.LIST'
-GM_TA_CLASS_FILE = 'GM_TA_CLASS.TXT.LIST'
-GM_SIFT_FILE = 'GM_SIFT.TXT.LIST'
-GM_FAMILY_HIST_FILE = 'GM_FAMILY_HIST.TXT.LIST'
-GM_INH_MODE_FILE = 'GM_INH_MODE.TXT.LIST'
-GM_FAMILY_CASE_FILE = 'GM_FAMILY_CASE.TXT.LIST'
+GM_C_DESC_FILE = "GM_C_DESC.TXT.LIST"
+GM_P_DESC_FILE = "GM_P_DESC.TXT.LIST"
+GM_G_DESC_HG19_FILE = "GM_G_DESC_HG19.TXT.LIST"
+GM_G_DESC_HG38_FILE = "GM_G_DESC_HG38.TXT.LIST"
+GM_TYPE_FILE = "GM_TYPE.TXT.LIST"
+GM_DESC_FILE = "GM_DESC.TXT.LIST"
+GM_MOTIF_FILE = "GM_MOTIF.TXT.LIST"
+GM_EXON_INTRON_FILE = "GM_EXON_INTRON.TXT.LIST"
+GM_EFFECT_FILE = "GM_EFFECT.TXT.LIST"
+GM_TA_CLASS_FILE = "GM_TA_CLASS.TXT.LIST"
+GM_SIFT_FILE = "GM_SIFT.TXT.LIST"
+GM_FAMILY_HIST_FILE = "GM_FAMILY_HIST.TXT.LIST"
+GM_INH_MODE_FILE = "GM_INH_MODE.TXT.LIST"
+GM_FAMILY_CASE_FILE = "GM_FAMILY_CASE.TXT.LIST"
 
-TOPO_MORPH_JSON_FILE = 'TOPO_MORPH.json'
-GM_REF_FILE = 'GM_REF.json'
+TOPO_MORPH_JSON_FILE = "TOPO_MORPH.json"
+GM_REF_FILE = "GM_REF.json"
 
 
 # app = Flask(__name__)
@@ -170,12 +170,12 @@ topo_morph_assc = None
 gm_ref_data = None
 event_list = None
 
-BQ_GCP=os.environ.get('BQ_GCP', 'isb-cgc-tp53-dev')
-BQ_DATASET = os.environ.get('BQ_DATASET', 'P53_data')
+BQ_GCP = os.environ.get("BQ_GCP", "nih-nci-cbiit-tp53-dev")
+BQ_DATASET = os.environ.get("BQ_DATASET", "P53_data")
 # GOOGLE_SE_ID = os.environ.get('GOOGLE_SE_ID', 'dab1bee9d7d88fe88')
-DATA_VERSION = os.environ.get('DATA_VERSION', 'r21')
-IS_TEST = os.environ.get('IS_TEST', 'True').lower() == 'true'
-TP53_STATIC_URL = os.environ.get('TP53_STATIC_URL', 'https://storage.googleapis.com/tp53-static-files-dev')
+DATA_VERSION = os.environ.get("DATA_VERSION", "r21")
+IS_TEST = os.environ.get("IS_TEST", "True").lower() == "true"
+TP53_STATIC_URL = "./static"
 
 
 def setup_app(app):
@@ -245,7 +245,9 @@ def setup_app(app):
 
     global cl_tumor_org_group_list
     if not cl_tumor_org_group_list:
-        cl_tumor_org_group_list = utils.load_list(CL_TUMOR_ORG_GROUP_FILE, TP53_STATIC_URL)
+        cl_tumor_org_group_list = utils.load_list(
+            CL_TUMOR_ORG_GROUP_FILE, TP53_STATIC_URL
+        )
 
     global cl_desc_list
     if not cl_desc_list:
@@ -261,7 +263,9 @@ def setup_app(app):
 
     global cl_start_material_list
     if not cl_start_material_list:
-        cl_start_material_list = utils.load_list(CL_START_MATERIAL_FILE, TP53_STATIC_URL)
+        cl_start_material_list = utils.load_list(
+            CL_START_MATERIAL_FILE, TP53_STATIC_URL
+        )
 
     global cl_ta_class_list
     if not cl_ta_class_list:
@@ -306,7 +310,9 @@ def setup_app(app):
         cl_exposure_list = utils.load_list(CL_EXPOSURE_FILE, TP53_STATIC_URL)
     global sm_start_material_list
     if not sm_start_material_list:
-        sm_start_material_list = utils.load_list(SM_START_MATERIAL_FILE, TP53_STATIC_URL)
+        sm_start_material_list = utils.load_list(
+            SM_START_MATERIAL_FILE, TP53_STATIC_URL
+        )
     global sm_c_desc_list
     if not sm_c_desc_list:
         sm_c_desc_list = utils.load_list(SM_C_DESC_FILE, TP53_STATIC_URL)
@@ -342,10 +348,14 @@ def setup_app(app):
         sm_sift_list = utils.load_list(SM_SIFT_FILE, TP53_STATIC_URL)
     global sm_tumor_org_group_list
     if not sm_tumor_org_group_list:
-        sm_tumor_org_group_list = utils.load_list(SM_TUMOR_ORG_GROUP_FILE, TP53_STATIC_URL)
+        sm_tumor_org_group_list = utils.load_list(
+            SM_TUMOR_ORG_GROUP_FILE, TP53_STATIC_URL
+        )
     global sm_sample_source_list
     if not sm_sample_source_list:
-        sm_sample_source_list = utils.load_list(SM_SAMPLE_SOURCE_GROUP_FILE, TP53_STATIC_URL)
+        sm_sample_source_list = utils.load_list(
+            SM_SAMPLE_SOURCE_GROUP_FILE, TP53_STATIC_URL
+        )
     global sm_germ_mut_list
     if not sm_germ_mut_list:
         sm_germ_mut_list = utils.load_list(SM_GERM_MUT_FILE, TP53_STATIC_URL)
@@ -402,16 +412,16 @@ def setup_app(app):
         gm_family_case_list = utils.load_list(GM_FAMILY_CASE_FILE, TP53_STATIC_URL)
     global topo_morph_assc
     if not topo_morph_assc:
-        topo_morph_assc = json.dumps(utils.load_topo_morph_assc(TOPO_MORPH_JSON_FILE, TP53_STATIC_URL))
+        topo_morph_assc = json.dumps(
+            utils.load_topo_morph_assc(TOPO_MORPH_JSON_FILE, TP53_STATIC_URL)
+        )
     global gm_ref_data
     if not gm_ref_data:
-        gm_ref_data = utils.load_list(GM_REF_FILE, TP53_STATIC_URL, json=True)
+        gm_ref_data = utils.load_list(GM_REF_FILE, TP53_STATIC_URL)
     global sm_ref_data
     if not sm_ref_data:
-        sm_ref_data = utils.load_list(SM_REF_FILE, TP53_STATIC_URL, json=True)
+        sm_ref_data = utils.load_list(SM_REF_FILE, TP53_STATIC_URL)
     global event_list
     if not event_list:
-        event_list = utils.load_list(EVENT_FILE, TP53_STATIC_URL, json=True)
+        event_list = utils.load_list(EVENT_FILE, TP53_STATIC_URL)
     return
-
-
