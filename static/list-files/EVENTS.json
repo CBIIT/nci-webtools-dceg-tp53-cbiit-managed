@@ -1,0 +1,39 @@
+{
+  "upcoming_list": [
+  ],
+  "past_list": [
+    {
+        "title": "<strong>6<sup>th</sup> International LFS Association Symposium</strong>",
+        "date": {
+          "year": "2022",
+          "month": "Oct",
+          "days": "13-16"
+        },
+        "host": "Hosted by <strong>National Cancer Institute</strong> in partnership with the <strong>LiFE Consortium</strong>",
+        "location": "Bethesda, Maryland",
+        "content": "<a class='hover-arrow-link' href='https://www.lfsassociation.org/reach-22/' target='_blank' rel='noopener noreferrer'>Visit Website</a>"
+    },
+    {
+      "title": "<strong>LFS UK 2022</strong>",
+      "date": {
+        "year": "2022",
+        "month": "Sep",
+        "days": "10"
+      },
+      "host": "Hosted by <strong>The George Pantziarka TP53 Trust</strong>",
+      "location": "London, UK",
+      "content": "<a class='hover-arrow-link' href='https://www.eventbrite.co.uk/e/lfs-uk-2022-tickets-362548310757' target='_blank' rel='noopener noreferrer'>Visit Website</a>"
+    },
+    {
+      "title": "<strong>18<sup>th</sup> International p53 Workshop</strong>",
+      "date": {
+        "year": "2022",
+        "month": "May",
+        "days": "22-25"
+      },
+      "host": "Weizmann Institute of Science",
+      "location": "Rehovot, Israel",
+      "content": "<a class='hover-arrow-link' href='https://www.weizmann.ac.il/conferences/P53W2020/18th-international-p53-workshop' target='_blank' rel='noopener noreferrer'>Visit Website</a>"
+    }
+  ]
+}
