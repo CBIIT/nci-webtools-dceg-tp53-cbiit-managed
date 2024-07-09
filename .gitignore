@@ -108,3 +108,5 @@ venv.bak/
 
 privatekey.json
 client_secret.json
+
+.DS_Store
