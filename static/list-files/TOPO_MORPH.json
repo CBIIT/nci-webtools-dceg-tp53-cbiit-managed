@@ -1,0 +1,3814 @@
+[
+  {
+    "Short_topo": "GUM",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "GUM",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "GUM",
+    "Morphology": "Spindle cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "GUM",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LIP",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "LIP",
+    "Morphology": "Leucoplakia, NOS"
+  },
+  {
+    "Short_topo": "LIP",
+    "Morphology": "Squamous cell carcinoma, keratinizing, NOS "
+  },
+  {
+    "Short_topo": "LIP",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ANUS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "ANUS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ANUS",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Acinar cell carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Adenocarcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Adenosarcoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Atypical carcinoid tumor"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Bronchiolo-alveolar adenocarcinoma (C34._)"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Carcinoid tumor, NOS (except of Appendix M-8240/1)"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Choriocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Combined small cell carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Epithelial tumor, benign"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Fibrosis, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Giant cell and spindle cell carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Large cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Large cell neuroendocrine carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Mesothelioma, malignant"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Mixed tumor, malignant, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Mucoepidermoid carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Non-small cell carcinoma (C34._)"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Oat cell carcinoma (C34._)"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Pleomorphic carcinoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Pleuropulmonary blastoma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Pulmonary blastoma (C34._)"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Pulmonary sclerosing hemangioma"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Small cell carcinoma, fusiform cell"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Small cell carcinoma, intermediate cell"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Squamous cell carcinoma, adenoïd"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Squamous cell carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LUNG",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Adult T-cell leukemia/lymphoma (HTLV-1 positive)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Anaplastic large cell lymphoma, T cell and null cell type"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Basal cell carcinoma, nodular (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Basal cell carcinoma, NOS (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Basosquamous carcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Bowen disease (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Cutaneous T-cell lymphoma, NOS (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Dermatofibrosarcoma, NOS (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Dysplastic nevus (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Eccrine adenocarcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Fibroma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Fibrosarcoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Hidrocystoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Histiocytoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Hyperplasia, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Infiltrating basal cell carcinoma, NOS (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Keloid"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Keratoacanthoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Keratosis, actinic"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Keratosis, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Lentigo maligna melanoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Lymphomatoid papulosis (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Malignant fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Malignant lymphoma, large B-cell, diffuse, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Malignant lymphoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Marginal zone B-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Mature T-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Melanoma in situ"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Merkel cell carcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Multifocal superficial basal cell carcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Mycosis fungoides (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Nodular melanoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Pigmented nevus, NOS (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Sebaceous adenocarcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Sezary syndrome"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Spindle cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Spindle cell sarcoma"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Superficial spreading melanoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Sweat gland adenocarcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Trichilemmocarcinoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Trichilemmoma (C44._)"
+  },
+  {
+    "Short_topo": "SKIN",
+    "Morphology": "Trichoepithelioma (C44._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Astroblastoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Astrocytoma, anaplastic (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Astrocytoma, NOS (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Atypical choroid plexus papilloma (C71.5)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Central neurocytoma"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Choroid plexus carcinoma (C71.5)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Choroid plexus papilloma, NOS (C71.5)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Dysembryoplastic neuroepithelial tumor (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Embryonal rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Ependymoma, anaplastic (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Ependymoma, NOS (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Fibrillary astrocytoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Gemistocytic astrocytoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Germinoma"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Giant cell glioblastoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Glioblastoma, NOS (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Glioma, malignant (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Gliomatosis cerebri (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Gliosarcoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Malignant lymphoma, large B-cell, diffuse, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Medulloblastoma, NOS (C71.6)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Meningeal sarcomatosis "
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Meningioma, malignant"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Meningioma, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Mixed glioma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Myxopapillary ependymoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Neurilemoma, malignant"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Neuroblastoma, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Neuroepithelioma, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Oligodendroglioma, anaplastic (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Oligodendroglioma, NOS (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Peripheral neuroectodermal tumor"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Pilocytic astrocytoma (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Pleomorphic xanthoastrocytoma (C71._) "
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Primitive neuroectodermal tumor, NOS (C71._)"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Tumor cells, NOS"
+  },
+  {
+    "Short_topo": "BRAIN",
+    "Morphology": "Yolk sac tumor"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Adenocarcinoma in situ in adenomatous polyp"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Adenomatous polyposis coli (C18._)  "
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Carcinoid tumor of uncertain malignant potential"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Carcinosarcoma, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Goblet cell carcinoid"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Polyp, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Signet ring cell carcinoma"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Tubular adenoma, NOS"
+  },
+  {
+    "Short_topo": "COLON",
+    "Morphology": "Tubulovillous adenoma, NOS"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Angiomyolipoma"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Cholangiocarcinoma (C22.1, C24.0)"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Combined hepatocellular carcinoma and cholangiocarcinoma (C22.0)"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Embryonal sarcoma"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Hemangiosarcoma"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Hepatoblastoma (C22.0)"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Hepatocellular adenoma (C22.0)"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Hepatocellular carcinoma, fibrolamellar (C22.0) "
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Hepatocellular carcinoma, NOS (C22.0)"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Klatskin tumor (C22.1, C24.0)"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Liposarcoma, NOS"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "LIVER",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Adenofibroma, NOS (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Brenner tumor, malignant (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Brenner tumor, NOS (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Carcinosarcoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Choriocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Clear cell adenocarcinofibroma (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Clear cell adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Cystadenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Cystadenoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Dysgerminoma"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Endometrioid adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Endometriosis, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Germinoma"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Goblet cell carcinoid"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Granulosa cell tumor, juvenile (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Granulosa cell tumor, malignant (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Mesodermal mixed tumor"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Mixed cell adenocarcinoma"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Mucinous cystadenocarcinoma, NOS (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Mucinous cystic tumor of borderline malignancy (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Mullerian mixed tumor (C54._)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Osteosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Papillary cystadenocarcinoma, NOS (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Papillary serous cystadenocarcinoma (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Serous adenocarcinofibroma"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Serous cystadenocarcinoma, NOS (C56.9) "
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Serous cystadenoma, borderline malignancy (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Serous surface papillary tumor of borderline malignancy (C56.9)"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Solid carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Squamous cell carcinoma, adenoïd"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Teratocarcinoma"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Teratoma with malignant transformation"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Teratoma, benign"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Teratoma, malignant, NOS"
+  },
+  {
+    "Short_topo": "OVARY",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PENIS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PENIS",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "VULVA",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "VULVA",
+    "Morphology": "Leiomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "VULVA",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "VULVA",
+    "Morphology": "Squamous cell carcinoma, keratinizing, NOS "
+  },
+  {
+    "Short_topo": "VULVA",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "VULVA",
+    "Morphology": "Squamous intraepithelial neoplasia, grade III"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Adenocarcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Apocrine adenocarcinoma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Atypical medullary carcinoma (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Canalicular adenoma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Carcinoma with osteoclast-like giant cells"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Carcinosarcoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Comedocarcinoma, noninfiltrating (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Comedocarcinoma, NOS (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Cribriform carcinoma in situ (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Cribriform carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Ductal carcinoma in situ, solid type (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Fibroadenoma, NOS (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Hyperplasia, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Infiltrating duct and lobular carcinoma (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Infiltrating duct carcinoma, NOS (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Infiltrating ductular carcinoma (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Inflammatory carcinoma (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Intraductal carcinoma and lobular carcinoma in situ (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Intraductal carcinoma, noninfiltrating, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Intraductal papillary adenocarcinoma with invasion (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Lobular carcinoma, NOS (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Malignant myoepithelioma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Medullary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Metaplastic carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Neoplasm, benign"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Paget's disease and intraductal carcinoma of breast (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Paget's disease, mammary (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Papillary carcinoma in situ"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Phyllodes tumor, benign (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Phyllodes tumor, malignant (C50._)  "
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Scirrhous adenocarcinoma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Secretory carcinoma of breast (C50._)"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Spindle cell sarcoma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Squamous cell carcinoma, adenoïd"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Stromal sarcoma, NOS"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "BREAST",
+    "Morphology": "Tubulovillous adenoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Angiomyolipoma"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Clear cell adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Clear cell sarcoma of kidney (C64.9)"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Cystadenoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Epithelial tumor, benign"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Malignant rhabdoid tumor"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Nephroblastoma, NOS (C64.9)"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Renal cell carcinoma, chromophobe type (C64.9)"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Renal cell carcinoma, NOS (C64.9)"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Renal cell carcinoma, sarcomatoid (C64.9)"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "KIDNEY",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LARYNX",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "LARYNX",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LARYNX",
+    "Morphology": "Hyperplasia, NOS"
+  },
+  {
+    "Short_topo": "LARYNX",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "LARYNX",
+    "Morphology": "Spindle cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LARYNX",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Ganglioneuroma"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Malignant peripheral nerve sheath tumor"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Neurilemoma, malignant"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Neurilemoma, NOS"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Neuroblastoma, NOS"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Neuroepithelioma, NOS"
+  },
+  {
+    "Short_topo": "NERVES",
+    "Morphology": "Neurofibroma, NOS"
+  },
+  {
+    "Short_topo": "PALATE",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "PALATE",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PALATE",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "PALATE",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "PALATE",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Carcinoid tumor, NOS (except of Appendix M-8240/1)"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Serrated adenoma (C18._)"
+  },
+  {
+    "Short_topo": "RECTUM",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Embryonal carcinoma, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Germ cell tumor, nonseminomatous (C62._)"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Germinoma"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Leydig cell tumor, malignant (C62._)"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Liposarcoma, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Malignant teratoma, intermediate"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Seminoma, NOS (C62._)"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Sex cord-gonadal stromal tumor, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Teratocarcinoma"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Teratoma, malignant, NOS"
+  },
+  {
+    "Short_topo": "TESTIS",
+    "Morphology": "Teratoma, NOS"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Pseudosarcomatous carcinoma"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Thymic carcinoma, NOS (C37.9)"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Thymoma, malignant (C37.9)"
+  },
+  {
+    "Short_topo": "THYMUS",
+    "Morphology": "Thymoma, NOS (C37.9)"
+  },
+  {
+    "Short_topo": "TONSIL",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "TONSIL",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "TONSIL",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "TONSIL",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "URETER",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "URETER",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "URETER",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "URETER",
+    "Morphology": "Papillary transitional cell carcinoma (C67._)"
+  },
+  {
+    "Short_topo": "URETER",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Adenomatous polyposis coli (C18._)  "
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Endometrioid adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Leiomyoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Leiomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Mesodermal mixed tumor"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Mullerian mixed tumor (C54._)"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Myoma"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Papillary serous cystadenocarcinoma (C56.9)"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "UTERUS",
+    "Morphology": "Serous cystadenocarcinoma, NOS (C56.9) "
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Embryonal carcinoma, NOS"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Melanoma in situ"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "VAGINA",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Dysplasia, moderate"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Papillary transitional cell carcinoma (C67._)"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Papillary transitional cell carcinoma, non invasive (C67._)"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Papillary transitional cell neoplasm of low malignant potential (C67._)"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Plasmacytoid carcinoma"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Solid carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Spindle cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Transitional cell carcinoma in situ "
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BLADDER",
+    "Morphology": "Urothelial papilloma, NOS"
+  },
+  {
+    "Short_topo": "SINUSES",
+    "Morphology": "Adenocarcinoma, intestinal type (C16._)  "
+  },
+  {
+    "Short_topo": "SINUSES",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "SINUSES",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "SINUSES",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SINUSES",
+    "Morphology": "Spindle cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SINUSES",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Adenocarcinoma, diffuse type (C16._)"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Adenocarcinoma, intestinal type (C16._)  "
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Adenocarcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Choriocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Clear cell adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Gastrointestinal stromal sarcoma"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Gastrointestinal stromal tumor, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Hepatoid adecarcinoma"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Metaplasia"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Polyp, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Signet ring cell carcinoma"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Stromal sarcoma, NOS"
+  },
+  {
+    "Short_topo": "STOMACH",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Atypical adenoma"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Carcinoma, anaplastic, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Follicular adenocarcinoma, NOS (C73.9)"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Follicular adenocarcinoma, well differentiated (C73.9)"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Follicular adenoma (C73.9)"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Follicular lymphoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Medullary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Oxyphilic adenocarcinoma"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Papillary carcinoma, follicular variant (C73.9)"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "THYROID",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "MENINGES",
+    "Morphology": "Meningioma, malignant"
+  },
+  {
+    "Short_topo": "MENINGES",
+    "Morphology": "Meningioma, NOS"
+  },
+  {
+    "Short_topo": "MENINGES",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Acinar cell carcinoma"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Acute myeloid leukemia, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Adenocarcinoid tumor"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Adenocarcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Giant cell carcinoma"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Glucagonoma, malignant (C25._)"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Infiltrating duct carcinoma, NOS (C50._)"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Insulinoma, malignant (C25._)"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Intraductal papillary-mucinous adenoma (C25._)"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Intraductal papillary-mucinous carcinoma, non invasive (C25._)"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Mucinous cystadenocarcinoma, non-invasive (C25._)"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "PANCREAS",
+    "Morphology": "Tumor cells, NOS"
+  },
+  {
+    "Short_topo": "PLACENTA",
+    "Morphology": "Choriocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "PLACENTA",
+    "Morphology": "Hydatidiform mole, NOS (C58.9)"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Acinar cell carcinoma"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Glandular intraepithelial neoplasia, grade III"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Hyperplasia, glandular"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Hyperplasia, NOS"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "PROSTATE",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Adenocarcinoma, intestinal type (C16._)  "
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Barrett's esophagus"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Basaloid carcinoma (C21.1)"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Carcinoma, anaplastic, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Carcinosarcoma, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Dysplasia, mild"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Dysplasia, moderate"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Esophagitis"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Hyperplasia, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Metaplasia"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Signet ring cell carcinoma"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Squamous cell carcinoma in situ with questionable stromal invasion"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Squamous cell carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ESOPHAGUS",
+    "Morphology": "Squamous cell carcinoma, spindle cell"
+  },
+  {
+    "Short_topo": "OROPHARYNX",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OROPHARYNX",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OROPHARYNX",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "OROPHARYNX",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "OROPHARYNX",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Choriocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Leiomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Mesothelioma, malignant"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Mullerian mixed tumor (C54._)"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Papillary serous cystadenocarcinoma (C56.9)"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Serous cystadenocarcinoma, NOS (C56.9) "
+  },
+  {
+    "Short_topo": "PERITONEUM",
+    "Morphology": "Serous surface papillary carcinoma (C56.9)"
+  },
+  {
+    "Short_topo": "GALLBLADDER",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "GALLBLADDER",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "GALLBLADDER",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "GALLBLADDER",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "GALLBLADDER",
+    "Morphology": "Signet ring cell carcinoma"
+  },
+  {
+    "Short_topo": "GALLBLADDER",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "HYPOPHARYNX",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "HYPOPHARYNX",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "HYPOPHARYNX",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Anaplastic large cell lymphoma, T cell and null cell type"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Angioimmunoblastic T-cell lymphoma"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Burkitt lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Follicular lymphoma, grade 1"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Follicular lymphoma, grade 2"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Follicular lymphoma, grade 3"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Follicular lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Hodgkin lymphoma, lymphocyte-rich"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Hodgkin lymphoma, lymphocytic depletion, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Hodgkin lymphoma, mixed cellularity, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Hodgkin lymphoma, nodular sclerosis, grade 1"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Hodgkin lymphoma, nodular sclerosis, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Hodgkin lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Malignant lymphoma, large B-cell, diffuse, immunoblastic, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Malignant lymphoma, large B-cell, diffuse, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Malignant lymphoma, mixed small and large cell, diffuse"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Malignant lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Malignant lymphoma, small B lymphocytic, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Mantle cell lymphoma"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Marginal zone B-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Mature T-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "NK/T-cell lymphoma, nasal and nasal-type "
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Plasmacytoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Precursor cell lymphoblastic lymphoma, NOS"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Precursor T-cell lymphoblastic lymphoma"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Primary effusion lymphoma"
+  },
+  {
+    "Short_topo": "LYMPH NODES",
+    "Morphology": "Sezary syndrome"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Carcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Embryonal rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
+  },
+  {
+    "Short_topo": "NASOPHARYNX",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Askin tumor"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Chondrosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Embryonal rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Fibrosarcoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Hemangiosarcoma"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Liposarcoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Malignant fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Myofibroblastoma"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Peripheral neuroectodermal tumor"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER SITES",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "SPINAL CORD",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "SPINAL CORD",
+    "Morphology": "Glioblastoma, NOS (C71._)"
+  },
+  {
+    "Short_topo": "SPINAL CORD",
+    "Morphology": "Glioma, malignant (C71._)"
+  },
+  {
+    "Short_topo": "SPINAL CORD",
+    "Morphology": "Neoplasm, benign"
+  },
+  {
+    "Short_topo": "SPINAL CORD",
+    "Morphology": "Neurilemoma, malignant"
+  },
+  {
+    "Short_topo": "SPINAL CORD",
+    "Morphology": "Pilocytic astrocytoma (C71._)"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Adenocarcinoma, endocervical type"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Adenocarcinoma, intestinal type (C16._)  "
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Carcinoid tumor, NOS (except of Appendix M-8240/1)"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Clear cell adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Endometrioid adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Glassy cell carcinoma"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Large cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Mesodermal mixed tumor"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
+  },
+  {
+    "Short_topo": "CERVIX UTERI",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Adenocarcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Adenocarcinoma with squamous metaplasia"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Adenocarcinoma, metastatic, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Clear cell adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Endometrioid adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Leiomyoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Mesodermal mixed tumor"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Mixed cell adenocarcinoma"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Mullerian mixed tumor (C54._)"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Papillary serous cystadenocarcinoma (C56.9)"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "CORPUS UTERI",
+    "Morphology": "Serous cystadenocarcinoma, NOS (C56.9) "
+  },
+  {
+    "Short_topo": "NASAL CAVITY",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "NASAL CAVITY",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "NASAL CAVITY",
+    "Morphology": "NK/T-cell lymphoma, nasal and nasal-type "
+  },
+  {
+    "Short_topo": "NASAL CAVITY",
+    "Morphology": "Spindle cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "NASAL CAVITY",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "RENAL PELVIS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "RENAL PELVIS",
+    "Morphology": "Papillary transitional cell carcinoma (C67._)"
+  },
+  {
+    "Short_topo": "RENAL PELVIS",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Aggressive fibromatosis"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Alveolar rhabdomyosarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Angiomyoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Atypical fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Benign fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Clear cell sarcoma, NOS (except of Kidney M-8964/3)"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Dermatofibrosarcoma, NOS (C44._)"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Embryo fibroblasts"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Embryonal rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Epithelioid leiomyoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Ewing sarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Fibroadenoma, NOS (C50._)"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Fibrosarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Gastrointestinal stromal sarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Giant cell tumor of soft parts, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Hemangioendothelioma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Hemangioma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Hemangiopericytoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Hemangiosarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Hibernoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Histiocytoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Kaposi sarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Leiomyoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Leiomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Lipoblastomatosis"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Lipoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Liposarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Malignant fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Malignant peripheral nerve sheath tumor"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Malignant rhabdoid tumor"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Mixed liposarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Myofibroblastic tumor, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Myxoid liposarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Myxosarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Neoplasm, benign"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Neurilemoma, malignant"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Neurilemoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Neurofibroma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Osteosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Pleomorphic liposarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Pleomorphic rhabdomyosarcoma, adult type"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Plexiform fibrohistiocytic tumor"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Solitary fibrous tumor, malignant"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Spindle cell sarcoma"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Stromal sarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Synovial sarcoma, biphasic"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Synovial sarcoma, NOS"
+  },
+  {
+    "Short_topo": "SOFT TISSUES",
+    "Morphology": "Undifferentiated sarcoma"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Chondrosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Choriocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Dermatofibroma, NOS (C44._)"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Follicular lymphoma, grade 3"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Ganglioneuroma"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Hemangiosarcoma"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Histiocytoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Lipoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Malignant fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Malignant lymphoma, large B-cell, diffuse, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Malignant peripheral nerve sheath tumor with rhabdomyoblastic differentiation"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Medulloepithelioma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Mesothelioma, malignant"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Neurilemoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Osteochondroma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Osteosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Serous cystadenocarcinoma, NOS (C56.9) "
+  },
+  {
+    "Short_topo": "UNKNOWN SITE",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Adrenal cortical adenoma, clear cell (C74.0)"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Adrenal cortical adenoma, NOS (C74.0)"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Adrenal cortical carcinoma (C74.0)"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Carcinosarcoma, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Ganglioneuroblastoma"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Malignant lymphoma, large B-cell, diffuse, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Mature T-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Pheochromocytoma, malignant (C74.1) "
+  },
+  {
+    "Short_topo": "ADRENAL GLAND",
+    "Morphology": "Pheochromocytoma, NOS (C74.1)"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Adenocarcinoma, intestinal type (C16._)  "
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Cholangiocarcinoma (C22.1, C24.0)"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Papillary carcinoma, NOS"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Papilloma, NOS (except Papilloma of bladder M-8120/1)"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Tubular adenocarcinoma"
+  },
+  {
+    "Short_topo": "BILIARY TRACT",
+    "Morphology": "Villous adenoma, NOS"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Chondroblastic osteosarcoma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Chondrosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Ewing sarcoma"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Malignant fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Neoplasm, benign"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Osteosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (limbs)",
+    "Morphology": "Periosteal osteosarcoma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Ameloblastoma, NOS"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Benign fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Chondroblastic osteosarcoma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Chondrosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Chordoma, NOS"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Dedifferentiated chondrosarcoma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Ewing sarcoma"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Giant cell tumor of bone, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Leiomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Malignant fibrous histiocytoma"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Osteochondroma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Osteosarcoma, NOS (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Parosteal osteosarcoma (C40._, C41._)"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Peripheral neuroectodermal tumor"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Spindle cell sarcoma"
+  },
+  {
+    "Short_topo": "BONES (other)",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (floor)",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (floor)",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (floor)",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (floor)",
+    "Morphology": "Dysplasia, moderate"
+  },
+  {
+    "Short_topo": "MOUTH (floor)",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "MOUTH (floor)",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Adenoid cystic carcinoma"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Dysplasia, mild"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Dysplasia, moderate"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Leucoplakia, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "MOUTH (other)",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Acinar cell carcinoma"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Carcinoma in pleomorphic adenoma (C07._, C08._)"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Liposarcoma, NOS"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Mucoepidermoid carcinoma"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Myoepithelioma"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Pleomorphic adenoma"
+  },
+  {
+    "Short_topo": "PAROTID GLAND",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "TONGUE (base)",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Embryonal rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Marginal zone B-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Neoplasm, benign"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Pterygium"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Retinoblastoma, NOS (C69.2)"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Rhabdomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "EYE AND ADNEXA",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "HEAD&NECK, NOS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "HEAD&NECK, NOS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "HEAD&NECK, NOS",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "PYRIFORM SINUS",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Adenoid cystic carcinoma"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Adenosquamous carcinoma"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Carcinoma in pleomorphic adenoma (C07._, C08._)"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Mucoepidermoid carcinoma"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Pleomorphic adenoma"
+  },
+  {
+    "Short_topo": "SALIVARY GLAND",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Dysplasia, moderate"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Dysplasia, severe"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Leucoplakia, NOS"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Mucoepidermoid carcinoma"
+  },
+  {
+    "Short_topo": "TONGUE (other)",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Dysplasia, mild"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Dysplasia, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Mucinous adenocarcinoma"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Signet ring cell carcinoma"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Tubular adenoma, NOS"
+  },
+  {
+    "Short_topo": "COLORECTUM, NOS",
+    "Morphology": "Villous adenoma, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute megakaryoblastic leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute monocytic leukemia "
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute myeloid leukemia with maturation"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute myeloid leukemia, M6 type"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute myeloid leukemia, minimal differentiation"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute myeloid leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute myelomonocytic leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Acute promyelocytic leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Adult T-cell leukemia/lymphoma (HTLV-1 positive)"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Aggressive NK-cell leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "B Lymphoblastic leukemia/lymphoma with hypodiploidy (Hypodiploid ALL)"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Burkitt cell leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Chronic myeloid leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Chronic myelomonocytic leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Essential thrombocythemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Hairy cell leukemia (C42.1) "
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Hodgkin lymphoma, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Hypereosinophilic syndrome"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Langerhans cell histiocytosis, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Lymphoid leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Malignant histiocytosis"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Malignant lymphoma, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Multiple myeloma (C42.1)"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Myelodysplastic syndrome with 5q deletion"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Myelodysplastic syndrome, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Myeloid leukemia, NOS "
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Myeloproliferative disease, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Myelosclerosis with myeloid metaplasia "
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Plasma cell leukemia (C42.1)"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Plasmacytoma, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Polycythemia vera"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Precursor B-cell lymphoblastic leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Precursor cell lymphoblastic leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Precursor T-cell lymphoblastic leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Prolymphocytic leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Refractory anemia with excess blasts"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Refractory anemia with excess blasts in transformation"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Splenic marginal zone-B-cell lymphoma (C42.2)"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "T-cell large granular lymphocytic leukemia"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Therapy-related acute myeloid leukemia, NOS"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Therapy-related myelodysplastic syndrome"
+  },
+  {
+    "Short_topo": "HEMATOP. SYSTEM",
+    "Morphology": "Waldenstrom macroglobulinemia (C42.0)"
+  },
+  {
+    "Short_topo": "OTHER HEAD&NECK",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OTHER HEAD&NECK",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER HEAD&NECK",
+    "Morphology": "Papilloma, NOS (except Papilloma of bladder M-8120/1)"
+  },
+  {
+    "Short_topo": "OTHER HEAD&NECK",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Carcinoid tumor, NOS (except of Appendix M-8240/1)"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Malignant lymphoma, NOS"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Neuroendocrine carcinoma, NOS"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "SMALL INTESTINE",
+    "Morphology": "Solid carcinoma, NOS"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Leiomyosarcoma, NOS"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Malignant lymphoma, non-Hodgkin, NOS"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Malignant lymphoma, NOS"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Mesothelioma, malignant"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Peripheral neuroectodermal tumor"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Sarcoma, NOS"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Spindle cell sarcoma"
+  },
+  {
+    "Short_topo": "HEART/MED/PLEURA",
+    "Morphology": "Teratoma, malignant, NOS"
+  },
+  {
+    "Short_topo": "RECTOSIGM. JUNCT.",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "RECTOSIGM. JUNCT.",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "RECTOSIGM. JUNCT.",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER URINARY ORG.",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER URINARY ORG.",
+    "Morphology": "Malignant melanoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER URINARY ORG.",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "URINARY TRACT, NOS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OTHER ENDOCRINE Gl.",
+    "Morphology": "Adenoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER ENDOCRINE Gl.",
+    "Morphology": "Carcinoma, undifferentiated, NOS"
+  },
+  {
+    "Short_topo": "OTHER ENDOCRINE Gl.",
+    "Morphology": "Glomus tumor, NOS"
+  },
+  {
+    "Short_topo": "OTHER ENDOCRINE Gl.",
+    "Morphology": "Pituitary adenoma, NOS (C75.1)"
+  },
+  {
+    "Short_topo": "OTHER ENDOCRINE Gl.",
+    "Morphology": "Pituitary carcinoma, NOS (C75.1)"
+  },
+  {
+    "Short_topo": "OTHER RESPIR. SYST.",
+    "Morphology": "Adenoid cystic carcinoma"
+  },
+  {
+    "Short_topo": "OTHER RESPIR. SYST.",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OTHER RESPIR. SYST.",
+    "Morphology": "Mucoepidermoid carcinoma"
+  },
+  {
+    "Short_topo": "OTHER RESPIR. SYST.",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER DIGESTIVE ORG.",
+    "Morphology": "Adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER DIGESTIVE ORG.",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "OTHER DIGESTIVE ORG.",
+    "Morphology": "Mature T-cell lymphoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER DIGESTIVE ORG.",
+    "Morphology": "Small cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER MALE GEN. ORG.",
+    "Morphology": "Basosquamous carcinoma (C44._)"
+  },
+  {
+    "Short_topo": "OTHER MALE GEN. ORG.",
+    "Morphology": "Liposarcoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER MALE GEN. ORG.",
+    "Morphology": "Squamous cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "DIGESTIVE ORGANS, NOS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "DIGESTIVE ORGANS, NOS",
+    "Morphology": "Neoplasm, NOS"
+  },
+  {
+    "Short_topo": "ENDOCRINE GLANDS, NOS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "ENDOCRINE GLANDS, NOS",
+    "Morphology": "Carcinoma, anaplastic, NOS"
+  },
+  {
+    "Short_topo": "OTHER FEMALE GEN. ORG.",
+    "Morphology": "Carcinoma in situ, NOS"
+  },
+  {
+    "Short_topo": "OTHER FEMALE GEN. ORG.",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER FEMALE GEN. ORG.",
+    "Morphology": "Carcinosarcoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER FEMALE GEN. ORG.",
+    "Morphology": "Normal tissue"
+  },
+  {
+    "Short_topo": "OTHER FEMALE GEN. ORG.",
+    "Morphology": "Papillary adenocarcinoma, NOS"
+  },
+  {
+    "Short_topo": "OTHER FEMALE GEN. ORG.",
+    "Morphology": "Sex cord-gonadal stromal tumor, NOS"
+  },
+  {
+    "Short_topo": "UP. URINARY TARCT, NOS",
+    "Morphology": "Transitional cell carcinoma, NOS"
+  },
+  {
+    "Short_topo": "FEMALE GENITAL ORG., NOS",
+    "Morphology": "Cancer, NOS"
+  },
+  {
+    "Short_topo": "FEMALE GENITAL ORG., NOS",
+    "Morphology": "Carcinoma, NOS"
+  },
+  {
+    "Short_topo": "FEMALE GENITAL ORG., NOS",
+    "Morphology": "Choriocarcinoma, NOS"
+  }
+]
