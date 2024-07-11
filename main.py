@@ -45,14 +45,9 @@ app.config["TESTING"] = settings.IS_TEST
 app.config["ENV"] = "development" if settings.IS_TEST else "production"
 logger = logging.getLogger("main_logger")
 
-# length of time (in seconds) the browser will respect the HSTS header
-# production and UAT should be set to 31,536,000 seconds (by not setting any HSTS_MAX_age,
-# else set to 3600 (test and dev)
-hsts_max_age = int(os.environ.get("HSTS_MAX_AGE") or 3600)
-
 Talisman(
     app,
-    strict_transport_security_max_age=hsts_max_age,
+    force_https=False,
     content_security_policy={
         "default-src": [
             "'self'",
