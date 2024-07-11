@@ -20,33 +20,36 @@
 # from google.api_core.exceptions import BadRequest
 # import concurrent.futures
 import requests
+
 # import sys
 # import copy
 import csv
+
 # from io import StringIO
 
 
 def load_topo_morph_assc(json_file, base_url):
     topo_morph_map = {}
     try:
-        file_path = base_url + '/list-files/' + json_file
+        file_path = base_url + "/list-files/" + json_file
         data = requests.get(file_path).json()
         for row in data:
-            topo = row['Short_topo']
-            morph = row['Morphology']
+            topo = row["Short_topo"]
+            morph = row["Morphology"]
             if topo not in topo_morph_map.keys():
                 topo_morph_map[topo] = []
             topo_morph_map[topo].append(morph)
         del data
     except:
-        print('Error while loading ' + json_file)
+        print("Error while loading " + json_file)
     return topo_morph_map
+
 
 def load_list(list_file, base_url, json=False, limit=None):
     data_list = []
 
     try:
-        file_path = base_url + '/list-files/' + list_file
+        file_path = base_url + "/list-files/" + list_file
         file_data = requests.get(file_path)
 
         if json:
@@ -57,24 +60,25 @@ def load_list(list_file, base_url, json=False, limit=None):
             if limit:
                 lines = lines[0:limit]
             for line in lines:
-                data_list.append({'label': line})
+                data_list.append({"label": line})
     except:
         data_list = []
     return data_list
+
 
 def load_csv_file(base_url, list_file):
     column_list = []
 
     try:
-        file_path = base_url + '/data/' + list_file
+        file_path = base_url + "/data/" + list_file
         file_data = requests.get(file_path)
-        file_data.encoding="utf-8"
+        file_data.encoding = "utf-8"
         lines = file_data.text.splitlines()
-        reader = csv.reader(lines, delimiter=',')
+        reader = csv.reader(lines, delimiter=",")
         column_list = next(reader)
         data_list = list(reader)
         for row in data_list:
-            row.insert(0, '')
+            row.insert(0, "")
     except:
         data_list = []
     return column_list, data_list
