@@ -1,0 +1,8 @@
+__pycache__/
+.circleci/
+.git/
+.github/
+.hg/
+.svn/
+secure_files/
+**/.env
