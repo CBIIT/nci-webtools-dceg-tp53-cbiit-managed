@@ -1,0 +1,27 @@
+﻿runtime: custom
+env: flex
+service: tp53
+api_version: 1
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 1
+  
+resources:
+  cpu: 1
+  memory_gb: 2
+  disk_size_gb: 10
+
+builtins:
+- appstats: on
+- deferred: on
+
+network:
+  name: tp53-network
+  subnetwork_name: subnet-04
+
+env_variables:
+  BQ_GCP: nih-nci-cbiit-tp53-dev
+  BQ_DATASET: prod
+  DATA_VERSION: r20
+  IS_TEST: True
