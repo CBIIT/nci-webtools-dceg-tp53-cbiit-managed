@@ -1,0 +1,43 @@
+﻿name: Deploy
+on:
+  push:
+    branches:
+      - "*_dev"
+      - tp53_1.0.0
+
+env:
+  TZ: America/New_York
+
+jobs:
+  deploy:
+    permissions:
+      contents: "read"
+      id-token: "write"
+    runs-on: ubuntu-latest
+    environment: dev
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      # Set up Google Cloud SDK
+      - name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+
+      - id: "auth"
+        name: "Authenticate to Google Cloud"
+        uses: "google-github-actions/auth@v1"
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+
+      - id: "deploy"
+        uses: "google-github-actions/deploy-appengine@v2"
+        env:
+          CLOUDSDK_APP_CLOUD_BUILD_TIMEOUT: 1800 # 30 minutes
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+          working_directory: ${{ github.workspace }}
+          deliverables: app-dev.yaml
+          version: ctb-dev-08
+          flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
