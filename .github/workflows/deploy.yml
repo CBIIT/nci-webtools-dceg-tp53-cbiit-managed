@@ -38,6 +38,5 @@ jobs:
         with:
           project_id: ${{ secrets.PROJECT_ID }}
           working_directory: ${{ github.workspace }}
-          deliverables: app-dev.yaml
-          version: ctb-dev-08
+          deliverables: app.yaml
           flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
