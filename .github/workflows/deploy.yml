@@ -31,14 +31,15 @@ jobs:
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
 
-      - run: gcloud app deploy app.yaml --verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}
+      # - run: gcloud app deploy app.yaml --verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}
 
-      # - id: "deploy"
-      #   uses: "google-github-actions/deploy-appengine@v2"
-      #   env:
-      #     CLOUDSDK_APP_CLOUD_BUILD_TIMEOUT: 1800 # 30 minutes
-      #   with:
-      #     project_id: ${{ secrets.PROJECT_ID }}
-      #     working_directory: ${{ github.workspace }}
-      #     deliverables: app.yaml
-      #     flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
+      - id: "deploy"
+        uses: "google-github-actions/deploy-appengine@v2"
+        env:
+          CLOUDSDK_APP_CLOUD_BUILD_TIMEOUT: 1800 # 30 minutes
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+          working_directory: ${{ github.workspace }}
+          deliverables: app.yaml
+          version: 1
+          flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
