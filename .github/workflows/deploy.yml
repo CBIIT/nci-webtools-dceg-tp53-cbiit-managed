@@ -32,6 +32,7 @@ jobs:
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
 
       # - run: gcloud app deploy app.yaml --verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}
+      - run: gcloud app create --region=us-east4 --verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}
 
       - id: "deploy"
         uses: "google-github-actions/deploy-appengine@v2"
