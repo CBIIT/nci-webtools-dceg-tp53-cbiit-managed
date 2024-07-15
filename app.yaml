@@ -17,7 +17,7 @@ builtins:
 
 network:
   name: tp53-network
-  subnetwork_name: subnet-04
+  subnetwork_name: subnet-03
 
 env_variables:
   BQ_GCP: nih-nci-cbiit-tp53-dev
