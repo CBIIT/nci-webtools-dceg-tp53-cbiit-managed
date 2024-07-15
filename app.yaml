@@ -1,6 +1,5 @@
 ﻿runtime: custom
 env: flex
-service: tp53
 api_version: 1
 
 automatic_scaling:
