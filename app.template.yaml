@@ -21,7 +21,3 @@ network:
 
 env_variables:
   BQ_GCP: nih-nci-cbiit-tp53-$TIER
-  BQ_DATASET: prod
-  DATA_VERSION: r20
-  IS_GAE_DEPLOYMENT: True
-  IS_TEST: True
