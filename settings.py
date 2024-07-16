@@ -170,10 +170,11 @@ topo_morph_assc = None
 gm_ref_data = None
 event_list = None
 
+print(os.environ)
 BQ_GCP = os.environ.get("BQ_GCP", "nih-nci-cbiit-tp53-dev")
-BQ_DATASET = os.environ.get("BQ_DATASET", "P53_data")
+BQ_DATASET = os.environ.get("BQ_DATASET", "prod")
 # GOOGLE_SE_ID = os.environ.get('GOOGLE_SE_ID', 'dab1bee9d7d88fe88')
-DATA_VERSION = os.environ.get("DATA_VERSION", "r21")
+DATA_VERSION = os.environ.get("DATA_VERSION", "r20")
 IS_TEST = os.environ.get("IS_TEST", "True").lower() == "true"
 TP53_STATIC_URL = "./static"
 
