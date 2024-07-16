@@ -55,11 +55,11 @@ def load_list(list_file, base_url, limit=None):
             if os.path.splitext(list_file)[1] == ".json":
                 data_list = json.load(file)
             else:
-                lines = file.read()
+                lines = file.readlines()
                 if limit:
                     lines = lines[0:limit]
                 for line in lines:
-                    data_list.append({"label": line})
+                    data_list.append({"label": line.strip()})
     except:
         data_list = []
     return data_list
