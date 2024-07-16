@@ -3,9 +3,14 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Environment to deploy to'
+        description: "Environment to deploy to"
         type: environment
         required: true
+        default: "dev"
+      tag:
+        description: "Tag to deploy"
+        type: string
+        required: false
   push:
     branches:
       - "*_dev"
@@ -21,7 +26,7 @@ jobs:
       contents: "read"
       id-token: "write"
     runs-on: ubuntu-latest
-    environment: dev
+    environment: $TIER
 
     steps:
       - uses: "actions/checkout@v4"
@@ -42,11 +47,6 @@ jobs:
         name: "Generate app.yaml"
         run: envsubst < app.template.yaml > app.yaml
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: app.yaml
-          path: app.yaml
-
       - id: "deploy"
         name: "Deploy App"
         uses: "google-github-actions/deploy-appengine@v2"
@@ -57,4 +57,3 @@ jobs:
           working_directory: ${{ github.workspace }}
           deliverables: app.yaml
           flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
-
