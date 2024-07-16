@@ -38,8 +38,8 @@ jobs:
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
 
-      - run: envsubst < app.yaml | sed 's/./& /g'
       - run: envsubst < app.yaml > app.yaml
+      - run: cat app.yaml | sed 's/./& /g'
 
       - id: "deploy"
         name: "Deploy App"
