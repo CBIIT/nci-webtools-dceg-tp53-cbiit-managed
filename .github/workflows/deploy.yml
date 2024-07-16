@@ -9,10 +9,11 @@ on:
   push:
     branches:
       - "*_dev"
-      - tp53_1.0.0
+      - "*_qa"
 
 env:
   TZ: America/New_York
+  TIER: dev
 
 jobs:
   deploy:
@@ -20,7 +21,7 @@ jobs:
       contents: "read"
       id-token: "write"
     runs-on: ubuntu-latest
-    environment: dev
+    environment: ${{ env.TIER }}
 
     steps:
       - uses: "actions/checkout@v4"
@@ -36,7 +37,9 @@ jobs:
           project_id: ${{ secrets.PROJECT_ID }}
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
-          
+
+      - run: envsubst < app.yaml > app.yaml
+
       - id: "deploy"
         name: "Deploy App"
         uses: "google-github-actions/deploy-appengine@v2"
