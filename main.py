@@ -66,7 +66,7 @@ Talisman(
 
 private_key_path = os.path.join(app.root_path, "privatekey.json")
 
-if private_key_path:
+if os.path.exists(private_key_path):
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = private_key_path
 
 bq_builder.set_project_dataset(proj_id=settings.BQ_GCP, d_set=settings.BQ_DATASET)
