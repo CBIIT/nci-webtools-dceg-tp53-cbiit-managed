@@ -26,7 +26,8 @@ jobs:
       contents: "read"
       id-token: "write"
     runs-on: ubuntu-latest
-    environment: $TIER
+    # unfortunately, we need to duplicate this logic because we can't access the env context from the environment key
+    environment: ${{ (endsWith(github.ref, '_dev') && 'dev') || (endsWith(github.ref, '_qa') && 'qa') || '' }}
 
     steps:
       - uses: "actions/checkout@v4"
