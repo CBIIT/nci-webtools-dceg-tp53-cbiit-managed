@@ -39,7 +39,13 @@ jobs:
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
 
       - run: envsubst < app.yaml > app.yaml
-      - run: cat app.yaml | sed 's/./& /g'
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: app.yaml
+          path: |
+            app.yaml
 
       - id: "deploy"
         name: "Deploy App"
