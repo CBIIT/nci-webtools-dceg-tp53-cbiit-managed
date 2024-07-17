@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    environment:
+      PORT: 8080
+    env_file: .env
+    ports:
+      - "8080:8080"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - .git/
+        - action: rebuild
+          path: requirements.txt
+
+    volumes: 
+      - .:/app

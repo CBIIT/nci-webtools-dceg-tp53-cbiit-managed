@@ -23,6 +23,8 @@ COPY . .
 
 ENV PYTHONUNBUFFERED=1
 
+ENV TZ=America/New_York
+
 ENV PORT=8080
 
 CMD gunicorn -t 120 -b :$PORT main:app

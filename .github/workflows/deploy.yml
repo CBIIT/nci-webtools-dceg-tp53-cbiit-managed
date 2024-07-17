@@ -1,0 +1,54 @@
+﻿name: Deploy
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Environment to deploy to"
+        type: environment
+        required: true
+        default: "dev"
+      tag:
+        description: "Tag to deploy"
+        type: string
+        required: false
+  push:
+    branches:
+      - "*_dev"
+      - "*_qa"
+
+env:
+  TZ: America/New_York
+
+jobs:
+  Deploy:
+    permissions:
+      contents: "read"
+      id-token: "write"
+    runs-on: ubuntu-latest
+    environment: ${{ (endsWith(github.ref, '_dev') && 'dev') || (endsWith(github.ref, '_qa') && 'qa') || '' }}
+
+    steps:
+      - uses: "actions/checkout@v4"
+
+      # Set up Google Cloud SDK
+      - name: "Set up Google Cloud SDK"
+        uses: "google-github-actions/setup-gcloud@v2"
+
+      - id: "auth"
+        name: "Authenticate to Google Cloud"
+        uses: "google-github-actions/auth@v2"
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+
+      - id: "deploy"
+        name: "Deploy App"
+        uses: "google-github-actions/deploy-appengine@v2"
+        env:
+          CLOUDSDK_APP_CLOUD_BUILD_TIMEOUT: 1800 # 30 minutes
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+          working_directory: ${{ github.workspace }}
+          deliverables: app.yaml
+          flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
