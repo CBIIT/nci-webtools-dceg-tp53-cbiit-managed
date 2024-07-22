@@ -42,6 +42,13 @@ jobs:
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
 
+      - id: "generate_app_yaml"
+        name: "Generate app.yaml"
+        run: envsubst < app.template.yaml > app.yaml
+        env:
+          VPC: ${{ secrets.VPC }}
+          SUBNET: ${{ secrets.SUBNET }}
+        
       - id: "deploy"
         name: "Deploy App"
         uses: "google-github-actions/deploy-appengine@v2"
