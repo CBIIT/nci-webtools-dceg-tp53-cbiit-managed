@@ -48,6 +48,7 @@ jobs:
         env:
           VPC: ${{ secrets.VPC }}
           SUBNET: ${{ secrets.SUBNET }}
+          VPC_ACCESS_CONNECTOR: ${{ secrets.VPC_ACCESS_CONNECTOR }}
 
       - id: deploy
         name: "Deploy App"
