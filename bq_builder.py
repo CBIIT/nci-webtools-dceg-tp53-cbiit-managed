@@ -16,13 +16,10 @@
 import re
 from google.api_core.exceptions import BadRequest
 
-global bq_proj_dataset
-bq_proj_dataset = "{projectId}.{dataset}".format(
-    projectId="isb-cgc-tp53-dev", dataset="P53_data"
-)
+bq_proj_dataset = "{projectId}.{dataset}".format(projectId='nih-nci-cbiit-tp53-dev', dataset='prod')
 
 
-def set_project_dataset(proj_id="isb-cgc-tp53-dev", d_set="P53_data"):
+def set_project_dataset(proj_id="nih-nci-cbiit-tp53-dev", d_set="prod"):
     global bq_proj_dataset
     bq_proj_dataset = "{projectId}.{dataset}".format(projectId=proj_id, dataset=d_set)
 
