@@ -51,7 +51,7 @@ jobs:
 
       - id: deploy
         name: "Deploy App"
-        run: gcloud app deploy app.yaml --project ${{ secrets.PROJECT_ID }} --promote --verbosity debug --service-account=${{ secrets.SERVICE_ACCOUNT }}
+        run: gcloud app deploy app.yaml --project ${{ secrets.PROJECT_ID }} --promote --verbosity debug --service-account=${{ secrets.APP_SERVICE_ACCOUNT }}
 
       # - id: "deploy"
       #   name: "Deploy App"
