@@ -54,10 +54,6 @@ jobs:
       #   name: "Deploy App"
       #   run: gcloud app deploy app.yaml --project ${{ secrets.PROJECT_ID }} --promote --verbosity debug --service-account=${{ secrets.APP_SERVICE_ACCOUNT }}
 
-      - id: "set_ingress"
-        name: "Set Ingress"
-        run: "gcloud app services update default --ingress=internal-and-cloud-load-balancing"
-
       - id: "deploy"
         name: "Deploy App"
         uses: "google-github-actions/deploy-appengine@v2"
@@ -68,3 +64,8 @@ jobs:
           working_directory: ${{ github.workspace }}
           deliverables: app.yaml
           flags: "--verbosity=debug --service-account=${{ secrets.APP_SERVICE_ACCOUNT }}"
+
+      - id: "set_ingress"
+        name: "Set Ingress"
+        run: "gcloud app services update default --ingress=internal-and-cloud-load-balancing"
+          
