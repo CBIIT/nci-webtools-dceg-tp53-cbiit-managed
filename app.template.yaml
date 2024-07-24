@@ -18,6 +18,7 @@ builtins:
 network:
   name: $VPC
   subnetwork_name: $SUBNET
+  instance_ip_mode: internal
 
 vpc_access_connector:
   name: $VPC_ACCESS_CONNECTOR
