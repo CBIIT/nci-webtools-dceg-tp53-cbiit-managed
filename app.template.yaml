@@ -16,5 +16,5 @@ builtins:
 - deferred: on
 
 network:
-  name: tp53-network
-  subnetwork_name: subnet-03
+  name: $VPC
+  subnetwork_name: $SUBNET

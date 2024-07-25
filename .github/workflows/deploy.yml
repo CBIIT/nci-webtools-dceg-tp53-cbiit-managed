@@ -42,13 +42,18 @@ jobs:
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
 
-      - id: "deploy"
-        name: "Deploy App"
-        uses: "google-github-actions/deploy-appengine@v2"
+      - id: "generate_app_yaml"
+        name: "Generate app.yaml"
+        run: envsubst < app.template.yaml > app.yaml
         env:
-          CLOUDSDK_APP_CLOUD_BUILD_TIMEOUT: 1800 # 30 minutes
-        with:
-          project_id: ${{ secrets.PROJECT_ID }}
-          working_directory: ${{ github.workspace }}
-          deliverables: app.yaml
-          flags: "--verbosity=debug --service-account=${{ secrets.SERVICE_ACCOUNT }}"
+          VPC: ${{ secrets.VPC }}
+          SUBNET: ${{ secrets.SUBNET }}
+
+      - id: "set_ingress"
+        name: "Set Ingress"
+        run: "gcloud app services update default --ingress=internal-and-cloud-load-balancing || true"
+
+      - id: deploy
+        name: "Deploy App"
+        run: gcloud app deploy app.yaml --project ${{ secrets.PROJECT_ID }} --promote --verbosity debug --service-account=${{ secrets.APP_SERVICE_ACCOUNT }}
+
