@@ -1,4 +1,4 @@
-﻿name: Deploy (CBIIT)
+﻿name: Deploy
 on:
   workflow_dispatch:
     inputs:
@@ -6,6 +6,10 @@ on:
         description: "Environment to deploy to"
         type: environment
         required: true
+  push:
+    branches:
+      - "*_dev"
+      - "*_qa"
 
 env:
   TZ: America/New_York
